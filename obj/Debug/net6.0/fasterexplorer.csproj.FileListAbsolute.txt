@@ -1,0 +1,15 @@
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/fasterexplorer
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/fasterexplorer.deps.json
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/fasterexplorer.runtimeconfig.json
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/fasterexplorer.dll
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/fasterexplorer.pdb
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.csproj.AssemblyReference.cache
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.GeneratedMSBuildEditorConfig.editorconfig
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.AssemblyInfoInputs.cache
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.AssemblyInfo.cs
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.csproj.CoreCompileInputs.cache
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.dll
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/refint/fasterexplorer.dll
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.pdb
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/fasterexplorer.genruntimeconfig.cache
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/Debug/net6.0/ref/fasterexplorer.dll

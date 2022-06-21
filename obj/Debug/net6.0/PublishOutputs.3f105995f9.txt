@@ -1,0 +1,5 @@
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/publish/fasterexplorer
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/publish/fasterexplorer.dll
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/publish/fasterexplorer.deps.json
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/publish/fasterexplorer.runtimeconfig.json
+/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/bin/Debug/net6.0/publish/fasterexplorer.pdb
