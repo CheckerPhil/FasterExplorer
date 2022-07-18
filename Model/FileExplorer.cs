@@ -11,7 +11,7 @@ public class FileExplorer
             Console.Clear();
             Console.WriteLine("Faster Explorer: fe");
             foreach(string folder in folders){
-                Console.WriteLine("+" + folder.Replace(Directory.GetCurrentDirectory() + "/", ""));
+                Console.WriteLine("+" + folder.Replace(Directory.GetCurrentDirectory() + "/", "") + "|");
             }
             foreach(string file in files){
                 Console.WriteLine("-" + file.Replace(Directory.GetCurrentDirectory() + "/", ""));
@@ -23,7 +23,12 @@ public class FileExplorer
                 break;
             }else if(input == "qq"){
                 Environment.Exit(0);                
-            }else{
+            }else if(input == "-"){
+                Console.WriteLine(Directory.GetCurrentDirectory() + folders[0] +"/");
+                Directory.SetCurrentDirectory(folders[0]);
+                continue;
+            }
+            else{
                 InputController ct = new InputController();
                 ct.checkInput(input);
             }
