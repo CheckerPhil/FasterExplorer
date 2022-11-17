@@ -10,8 +10,9 @@ public class Move
                 Console.Write("Name 2: ");
                 args[2] = Console.ReadLine();
             }
+            File.Move(args[1], args[2]);
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Succesfully copied {0} to {1}", args[1], args[2]);
+            Console.WriteLine("Succesfully moved {0} to {1}", args[1], args[2]);
             Console.ResetColor();
         }catch(Exception e){
             Console.WriteLine(e);

@@ -32,7 +32,7 @@ public class InputController
                 break;
             case "fe":
                 FileExplorer fe = new FileExplorer();
-                fe.fileExplorer(inputs);
+                fe.fileExplorer();
                 break;
             case "q":
                 Environment.Exit(0);

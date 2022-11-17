@@ -2,16 +2,17 @@ using System.IO;
 
 public class FileExplorer
 {
-    public void fileExplorer(String[] args){
+    public void fileExplorer(){
         
         while(true){
             string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
             string[] folders =  Directory.GetDirectories(Directory.GetCurrentDirectory());
             
             Console.Clear();
-            Console.WriteLine("Faster Explorer: fe");
             foreach(string folder in folders){
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("+" + folder.Replace(Directory.GetCurrentDirectory() + "/", "") + "|");
+                Console.ResetColor();
             }
             foreach(string file in files){
                 Console.WriteLine("-" + file.Replace(Directory.GetCurrentDirectory() + "/", ""));
@@ -24,9 +25,27 @@ public class FileExplorer
             }else if(input == "qq"){
                 Environment.Exit(0);                
             }else if(input == "-"){
-                Console.WriteLine(Directory.GetCurrentDirectory() + folders[0] +"/");
-                Directory.SetCurrentDirectory(folders[0]);
-                continue;
+                try{
+                    Directory.SetCurrentDirectory(folders[0]);
+                    continue;
+                }catch(Exception e){
+                    if(e is IndexOutOfRangeException){
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("No Folder found.");
+                        Console.ResetColor();
+                    }
+                }
+            }else if(input == "+"){
+                try{
+                    Directory.SetCurrentDirectory("..");
+                    continue;
+                }catch(Exception e){
+                    if(e is IndexOutOfRangeException){
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("No Folder found.");
+                        Console.ResetColor();
+                    }
+                }
             }
             else{
                 InputController ct = new InputController();
