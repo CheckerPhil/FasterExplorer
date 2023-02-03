@@ -7,11 +7,13 @@ public class FileExplorer
         while(true){
             string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
             string[] folders =  Directory.GetDirectories(Directory.GetCurrentDirectory());
-            
+            int i = 0;
+
             Console.Clear();
             foreach(string folder in folders){
+                i++;
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("+" + folder.Replace(Directory.GetCurrentDirectory() + "/", "") + "|");
+                Console.WriteLine("+" + i.ToString()+ folder.Replace(Directory.GetCurrentDirectory() + "/", "") + "|");
                 Console.ResetColor();
             }
             foreach(string file in files){
@@ -24,9 +26,14 @@ public class FileExplorer
                 break;
             }else if(input == "qq"){
                 Environment.Exit(0);                
-            }else if(input == "-"){
+            }else if(input.StartsWith("-")){
                 try{
-                    Directory.SetCurrentDirectory(folders[0]);
+                    if(input.Length > 1){
+                        var inputa = input.ToCharArray();
+                        Directory.SetCurrentDirectory(folders[Convert.ToInt32(Char.GetNumericValue(inputa[1])) - 1]);
+                    }else{
+                        Directory.SetCurrentDirectory(folders[0]);
+                    }
                     continue;
                 }catch(Exception e){
                     if(e is IndexOutOfRangeException){
@@ -35,9 +42,14 @@ public class FileExplorer
                         Console.ResetColor();
                     }
                 }
-            }else if(input == "+"){
+            }else if(input.StartsWith("+")){
                 try{
                     Directory.SetCurrentDirectory("..");
+                    if(input.Length > 1){
+                        var inputa = input.ToCharArray();
+                        Console.WriteLine(Char.GetNumericValue(inputa[1]));
+                        Directory.SetCurrentDirectory(folders[Convert.ToInt32(Char.GetNumericValue(inputa[1]))]);
+                    }
                     continue;
                 }catch(Exception e){
                     if(e is IndexOutOfRangeException){

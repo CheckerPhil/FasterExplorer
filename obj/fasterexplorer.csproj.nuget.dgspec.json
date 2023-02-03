@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj": {}
+    "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj": {}
   },
   "projects": {
-    "/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj": {
+    "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj",
+        "projectUniqueName": "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj",
         "projectName": "fasterexplorer",
-        "projectPath": "/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj",
+        "projectPath": "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj",
         "packagesPath": "/home/philipp/.nuget/packages/",
-        "outputPath": "/home/philipp/Dokumente/Programmieren/C#/FasterExplorer/fasterexplorer/obj/",
+        "outputPath": "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/philipp/.nuget/NuGet/NuGet.Config"
@@ -43,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.112/RuntimeIdentifierGraph.json"
         }
       }
     }
