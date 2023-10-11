@@ -1,7 +1,7 @@
 using System.IO;
 using System.Linq;
 
-public class Delete
+public class DeleteDirectoy
 {
     public void delete(String[] args){
         try{
@@ -19,13 +19,13 @@ public class Delete
                     string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
                     string[] folders =  Directory.GetDirectories(Directory.GetCurrentDirectory());
 
-                    name = files[Int32.Parse(args[1]) - 1];
+                    name = folders[Int32.Parse(args[1]) - 1];
                 }else{
                     name = args[1];
                 }
             }
-            if(File.Exists(name)){
-                File.Delete(name);
+            if(Directory.Exists(name)){
+                Directory.Delete(name);
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Succesfully deleted {0}", name);
                 Console.ResetColor();

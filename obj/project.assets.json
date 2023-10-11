@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/philipp/.nuget/packages/": {}
+    "/Users/philipp/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj",
+      "projectUniqueName": "/Users/philipp/Desktop/Programmieren/C#/FasterExplorer/fasterexplorer.csproj",
       "projectName": "fasterexplorer",
-      "projectPath": "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/fasterexplorer.csproj",
-      "packagesPath": "/home/philipp/.nuget/packages/",
-      "outputPath": "/home/philipp/Documents/Programmieren/C#/FasterExplorer/fasterexplorer/obj/",
+      "projectPath": "/Users/philipp/Desktop/Programmieren/C#/FasterExplorer/fasterexplorer.csproj",
+      "packagesPath": "/Users/philipp/.nuget/packages/",
+      "outputPath": "/Users/philipp/Desktop/Programmieren/C#/FasterExplorer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/philipp/.nuget/NuGet/NuGet.Config"
+        "/Users/philipp/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.112/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.415/RuntimeIdentifierGraph.json"
       }
     }
   }

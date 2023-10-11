@@ -18,6 +18,14 @@ public class ArgsController
                 Copy c = new Copy();
                 c.copy(input);
                 break;
+            case "nd":
+                NewDirectory nd = new NewDirectory();
+                nd.create(input);
+                break;
+            case "dd":
+                DeleteDirectoy dd = new DeleteDirectoy();
+                dd.delete(input);
+                break;
         } 
     }
 }

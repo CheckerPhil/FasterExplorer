@@ -13,11 +13,13 @@ public class FileExplorer
             foreach(string folder in folders){
                 i++;
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("+" + i.ToString()+ folder.Replace(Directory.GetCurrentDirectory() + "/", "") + "|");
+                Console.WriteLine("+ " + i.ToString() + " "+ folder.Replace(Directory.GetCurrentDirectory() + "/", "") + "|");
                 Console.ResetColor();
             }
+            i = 0;
             foreach(string file in files){
-                Console.WriteLine("-" + file.Replace(Directory.GetCurrentDirectory() + "/", ""));
+                i++;
+                Console.WriteLine("- " + i.ToString() + " " + file.Replace(Directory.GetCurrentDirectory() + "/", ""));
             }
             
             Console.Write("Faster Explorer: ");

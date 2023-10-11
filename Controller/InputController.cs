@@ -30,6 +30,14 @@ public class InputController
                 Copy c = new Copy();
                 c.copy(inputs);
                 break;
+             case "nd":
+                NewDirectory nd = new NewDirectory();
+                nd.create(inputs);
+                break;
+            case "dd":
+                DeleteDirectoy dd = new DeleteDirectoy();
+                dd.delete(inputs);
+                break;
             case "fe":
                 FileExplorer fe = new FileExplorer();
                 fe.fileExplorer();
